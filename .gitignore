@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Local data and generated files
+uploaded_dataset.csv
+*.csv
+*.parquet
+*.db
+*.sqlite
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
